@@ -26,7 +26,7 @@ const config = {
 		}),
 		paths: {
 			// change below to your repo name
-			base: process.env.NODE_ENV === 'development' ? '' : '/rough-css'
+			// base: '/rough-css' // process.env.NODE_ENV === 'development' ? '' : '/rough-css'
 		}
 	}
 };

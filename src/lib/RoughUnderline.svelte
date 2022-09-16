@@ -25,11 +25,6 @@
 </div>
 
 <style>
-	div {
-		font-family: 'Bangers', cursive;
-		font-size: 25px;
-	}
-
 	.underline {
 		border-top: solid red;
 		float: left;
