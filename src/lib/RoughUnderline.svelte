@@ -28,7 +28,6 @@ style:border-radius={bordRad} style:transform style:border-width={borderWidth}
 </div>
 
 <style>
-	@import url(https://fonts.googleapis.com/css?family=Bangers);
 	div {
 		font-family: 'Bangers', cursive;
 		font-size: 25px;
