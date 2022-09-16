@@ -1,12 +1,7 @@
 @font-face {
 	font-family: 'Architects Daughter';
-	src: url('/fonts/architect/ArchitectsDaughter-Regular.eot');
 	src: local('Architects Daughter Regular'), local('ArchitectsDaughter-Regular'),
-		url('/fonts/architect/ArchitectsDaughter-Regular.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/architect/ArchitectsDaughter-Regular.woff2') format('woff2'),
-		url('/fonts/architect/ArchitectsDaughter-Regular.woff') format('woff'),
-		url('/fonts/architect/ArchitectsDaughter-Regular.ttf') format('truetype'),
-		url('/fonts/architect/ArchitectsDaughter-Regular.svg#ArchitectsDaughter-Regular') format('svg');
+		url('/fonts/architect/ArchitectsDaughter-Regular.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
@@ -14,13 +9,8 @@
 
 @font-face {
 	font-family: 'Bangers';
-	src: url('/fonts/bangers/Bangers-Regular.eot');
 	src: local('Bangers Regular'), local('Bangers-Regular'),
-		url('/fonts/bangers/Bangers-Regular.eot?#iefix') format('embedded-opentype'),
-		url('/fonts/bangers/Bangers-Regular.woff2') format('woff2'),
-		url('/fonts/bangers/Bangers-Regular.woff') format('woff'),
-		url('/fonts/bangers/Bangers-Regular.ttf') format('truetype'),
-		url('/fonts/bangers/Bangers-Regular.svg#Bangers-Regular') format('svg');
+		url('/fonts/bangers/Bangers-Regular.woff2') format('woff2');
 	font-weight: normal;
 	font-style: normal;
 	font-display: swap;
