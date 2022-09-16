@@ -4,11 +4,19 @@ Like `RoughJS` but with `CSS` and `HTML` instead of `JS` and `SVG`.
 
 ![Alt text](./example.png 'Example RoughCSS usage')
 
+# Install
+
+From github:
+
+```
+npm i github:douganderson444/rough-css
+```
+
 # Usage
 
 Svelte:
 
-See `./src/routes/+page.svelte`
+See `./src/routes/+page.svelte` and `index.svx`
 
 ```svelte
 <script>
