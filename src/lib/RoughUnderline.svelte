@@ -14,9 +14,6 @@
 	let transform = `rotate(${Math.floor(singlDigs())}deg); translate(-100%)`;
 </script>
 
-<!-- 
-style:border-radius={bordRad} style:transform style:border-width={borderWidth}
- -->
 <div>
 	<slot>bangers?</slot>
 	<div
@@ -31,18 +28,6 @@ style:border-radius={bordRad} style:transform style:border-width={borderWidth}
 	div {
 		font-family: 'Bangers', cursive;
 		font-size: 25px;
-	}
-	@font-face {
-		font-family: 'Bangers';
-		font-style: normal;
-		font-weight: 400;
-		/* src: url(https://fonts.googleapis.com/css?family=Bangers); */
-		src: url('/fonts/Bangers.woff2'); /* IE9 Compat Modes */
-		src: local(''), url('/fonts/Bangers.woff2?#iefix') format('embedded-opentype'),
-			/* IE6-IE8 */ url('fonts/Bangers.woff2') format('woff2'),
-			/* Super Modern Browsers */ url('/fonts/Bangers.woff') format('woff'),
-			/* Modern Browsers */ url('/fonts/Bangers.ttf') format('truetype'),
-			/* Safari, Android, iOS */ url('/fonts/Bangers.svg#Lora') format('svg'); /* Legacy iOS */
 	}
 
 	.underline {
