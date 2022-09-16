@@ -15,7 +15,7 @@
 </script>
 
 <div>
-	<slot>bangers?</slot>
+	<slot />
 	<div
 		class="underline"
 		style:border-radius={bordRad}
