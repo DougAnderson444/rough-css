@@ -1,0 +1,66 @@
+---
+layout: 'handwritten'
+title: 'Guide'
+---
+
+<script>
+    import {
+        RoughBox,
+        RoughTitleBox,
+        RoughUnderline,
+        RoughCircle,
+        RoughDiamond
+    } from '@douganderson444/rough-css';
+</script>
+
+### ReadMe
+
+<RoughBox>
+<RoughTitleBox>About</RoughTitleBox>
+Like `RoughJS` but with `CSS` and `HTML` instead of `JS` and `SVG`.
+    <p>This is all HTML + CSS! NO SVGs. Just a bit of JS to get some random widths.</p>
+</RoughBox>
+
+<RoughBox>
+    <RoughTitleBox>
+        Use RoughCSS
+    </RoughTitleBox>
+It's easy to import into a Svetle Project. It could be compiled to WebComponents too...
+<br style='clear:both' />
+
+```sh
+npm i github:douganderson444/rough-css
+```
+
+</RoughBox>
+
+<RoughCircle>
+<small>
+
+```svelte
+<RoughCircle>
+    Circles round and round
+</RoughCircle>
+```
+
+</small>
+
+</RoughCircle>
+<RoughDiamond>
+<small>
+
+```svelte
+<RoughDiamond>
+    Diamond
+    in the
+    RoughCss
+</RoughDiamond>
+```
+</small>
+</RoughDiamond>
+<RoughBox>
+    <RoughTitleBox background={'#1DA1F2'}>
+        Twitter
+    </RoughTitleBox>
+    <RoughUnderline>@DougAnderson444</RoughUnderline>
+</RoughBox>
