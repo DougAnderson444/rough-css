@@ -19,10 +19,9 @@
 	style:border-radius={bordRad}
 	style:transform={rotate()}
 	style:border-width={borderWidth}
+	contenteditable
 >
-	<div class="inner" contenteditable>
-		<slot />
-	</div>
+	<slot />
 </div>
 
 <style>
@@ -34,24 +33,10 @@
 		min-width: fit-content;
 		height: auto;
 		aspect-ratio: 1 / 1;
-		background: #fff;
+		background-color: inherit;
 		border: solid black;
-		border-color: black;
+		border-color: inherit !important;
 		float: left;
 		text-align: center;
-	}
-
-	.inner {
-		margin: 15px;
-		/* transform: rotate(-2deg); */
-	}
-	.boxinner {
-		transform: rotate(2deg);
-		margin: 15px;
-		/*   padding:0 5px; */
-		float: right;
-		background: #ddd;
-		border: 1px solid #222;
-		box-shadow: 3px 3px 0 #222;
 	}
 </style>

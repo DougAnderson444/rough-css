@@ -44,9 +44,9 @@
 		aspect-ratio: 1 / 1;
 		margin: 5px;
 		min-width: fit-content;
-		background: #fff;
+		background-color: inherit;
 		border: solid black;
-		border-color: black;
+		border-color: inherit !important;
 		padding: 15px;
 	}
 </style>

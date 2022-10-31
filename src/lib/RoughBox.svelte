@@ -1,6 +1,6 @@
 <script>
 	let min = -1;
-	let max = 2; // 1 or 2 looks like a sketch
+	let max = 3; // 1 or 2 looks like a sketch
 
 	let high90s = () => 100 - Math.random() * (max - min) + min;
 	let singlDigs = () => 1 + Math.random() * (max - min) + min;
@@ -12,12 +12,7 @@
 	let rotate = () => `rotate(${Math.floor(singlDigs() / 2)}deg)`;
 </script>
 
-<div
-	class="box"
-	style:border-radius={bordRad}
-	style:transform={rotate()}
-	style:border-width={borderWidth}
->
+<div class="box" style:border-radius={bordRad} style:border-width={borderWidth} contenteditable>
 	<slot />
 </div>
 
@@ -25,9 +20,9 @@
 	.box {
 		margin: 5px;
 		min-width: 250px;
-		background: #fff;
+		background-color: inherit;
 		border: solid black;
-		border-color: black;
+		border-color: inherit !important;
 		float: left;
 		padding: 15px;
 	}
