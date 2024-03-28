@@ -1,6 +1,6 @@
 <script>
-	let min = -15;
-	let max = 15; // 1 or 2 looks like a sketch
+	export let min = -10;
+	export let max = 10; // 1 or 2 looks like a sketch
 	const high90s = () => 100 - Math.random() * (max - min) + min;
 	const singlDigs = () => 1 + Math.random() * (max - min) + min;
 
@@ -26,4 +26,13 @@
 		border: 1px solid #222;
 		box-shadow: 3px 3px 0 #222;
 	}
+
+  @font-face {
+	font-family: 'Bangers';
+	src: local('Bangers Regular'), local('Bangers-Regular'),
+		url('./Bangers-Regular.woff2') format('woff2');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
 </style>
