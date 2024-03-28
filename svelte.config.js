@@ -20,6 +20,9 @@ const config = {
 	],
 
 	kit: {
+		alias: {
+			'@douganderson444/rough-css': '/src/lib/index.js'
+		},
 		adapter: adapter({
 			pages: 'docs',
 			assets: 'docs'
