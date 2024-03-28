@@ -35,3 +35,10 @@ See `./src/routes/+page.svelte` and `index.svx`
 	<div slot="boxinner" style="background:#1DA1F2; color:white; padding:4px">Twitter</div>
 </RoughBox>
 ```
+
+## Packaging
+
+```bash
+npm run package
+npm publish
+```
