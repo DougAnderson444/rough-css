@@ -1,10 +1,11 @@
 <script>
 	export let min = -10;
 	export let max = 10; // 1 or 2 looks like a sketch
+	export let background = '#ddd';
+
 	const high90s = () => 100 - Math.random() * (max - min) + min;
 	const singlDigs = () => 1 + Math.random() * (max - min) + min;
 
-	export let background = '#ddd';
 </script>
 
 <div class="boxinner" style:background style:transform={`rotate(${singlDigs()}deg)`}>
@@ -13,8 +14,6 @@
 
 <style>
 	div {
-		font-family: 'Bangers', cursive;
-		font-size: 30px;
 		min-width: auto;
 	}
 
