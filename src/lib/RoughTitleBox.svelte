@@ -27,12 +27,4 @@
 		box-shadow: 3px 3px 0 #222;
 	}
 
-  @font-face {
-	font-family: 'Bangers';
-	src: local('Bangers Regular'), local('Bangers-Regular'),
-		url('./Bangers-Regular.woff2') format('woff2');
-	font-weight: normal;
-	font-style: normal;
-	font-display: swap;
-}
 </style>
