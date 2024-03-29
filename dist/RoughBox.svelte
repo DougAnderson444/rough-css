@@ -19,7 +19,7 @@
 <style>
 	.box {
 		margin: 5px;
-		min-width: 250px;
+		min-width: auto;
 		background-color: inherit;
 		border: solid black;
 		border-color: inherit !important;
