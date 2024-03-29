@@ -1,7 +1,7 @@
 /** @typedef {typeof __propDef.props}  RoughBoxProps */
 /** @typedef {typeof __propDef.events}  RoughBoxEvents */
 /** @typedef {typeof __propDef.slots}  RoughBoxSlots */
-export default class RoughBox extends SvelteComponent<{
+export default class RoughBox extends SvelteComponentTyped<{
     [x: string]: never;
 }, {
     [evt: string]: CustomEvent<any>;
@@ -12,7 +12,7 @@ export default class RoughBox extends SvelteComponent<{
 export type RoughBoxProps = typeof __propDef.props;
 export type RoughBoxEvents = typeof __propDef.events;
 export type RoughBoxSlots = typeof __propDef.slots;
-import { SvelteComponent } from "svelte";
+import { SvelteComponentTyped } from "svelte";
 declare const __propDef: {
     props: {
         [x: string]: never;
