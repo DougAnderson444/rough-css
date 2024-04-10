@@ -1,8 +1,8 @@
 /** @typedef {typeof __propDef.props}  RoughCircleProps */
 /** @typedef {typeof __propDef.events}  RoughCircleEvents */
 /** @typedef {typeof __propDef.slots}  RoughCircleSlots */
-export default class RoughCircle extends SvelteComponentTyped<{
-    [x: string]: never;
+export default class RoughCircle extends SvelteComponent<{
+    contenteditable?: boolean | undefined;
 }, {
     [evt: string]: CustomEvent<any>;
 }, {
@@ -12,10 +12,10 @@ export default class RoughCircle extends SvelteComponentTyped<{
 export type RoughCircleProps = typeof __propDef.props;
 export type RoughCircleEvents = typeof __propDef.events;
 export type RoughCircleSlots = typeof __propDef.slots;
-import { SvelteComponentTyped } from "svelte";
+import { SvelteComponent } from "svelte";
 declare const __propDef: {
     props: {
-        [x: string]: never;
+        contenteditable?: boolean | undefined;
     };
     events: {
         [evt: string]: CustomEvent<any>;

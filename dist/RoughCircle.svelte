@@ -1,4 +1,5 @@
 <script>
+  export let contenteditable = false;
 	let min = -1;
 	let max = 2; // 1 or 2 looks like a sketch
 
@@ -19,7 +20,7 @@
 	style:border-radius={bordRad}
 	style:transform={rotate()}
 	style:border-width={borderWidth}
-	contenteditable
+	contenteditable={contenteditable}
 >
 	<slot />
 </div>

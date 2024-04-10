@@ -1,7 +1,7 @@
 /** @typedef {typeof __propDef.props}  RoughTitleBoxProps */
 /** @typedef {typeof __propDef.events}  RoughTitleBoxEvents */
 /** @typedef {typeof __propDef.slots}  RoughTitleBoxSlots */
-export default class RoughTitleBox extends SvelteComponentTyped<{
+export default class RoughTitleBox extends SvelteComponent<{
     min?: number | undefined;
     max?: number | undefined;
     background?: string | undefined;
@@ -14,7 +14,7 @@ export default class RoughTitleBox extends SvelteComponentTyped<{
 export type RoughTitleBoxProps = typeof __propDef.props;
 export type RoughTitleBoxEvents = typeof __propDef.events;
 export type RoughTitleBoxSlots = typeof __propDef.slots;
-import { SvelteComponentTyped } from "svelte";
+import { SvelteComponent } from "svelte";
 declare const __propDef: {
     props: {
         min?: number | undefined;
