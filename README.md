@@ -24,10 +24,13 @@ See `./src/routes/+page.svelte` and `index.svx`
 	import { RoughBox, RoughUnderline } from '@douganderson444/rough-css';
 </script>
 
-<RoughBox>
+<RoughBox contenteditable={true}>
 	Hello
 	<div slot="boxinner" style="padding:4px">World</div>
 	<p contenteditable>This is all CSS! Edit me!</p>
+    ```
+    contenteditable={true}
+    ```
 </RoughBox>
 
 <RoughBox>

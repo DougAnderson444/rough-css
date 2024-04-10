@@ -15,7 +15,7 @@ title: 'Guide'
 
 ### ReadMe
 
-<RoughBox>
+<RoughBox contenteditable={true}>
 <RoughTitleBox>About</RoughTitleBox>
 Like `RoughJS` but with `CSS` and `HTML` instead of `JS` and `SVG`.
     <p>This is all HTML + CSS! NO SVGs. Just a bit of JS to get some random widths.</p>
